@@ -1,3 +1,11 @@
+## [1.3.9](https://github.com/Greenstand/bulk-pack-transformer-v2/compare/v1.3.8...v1.3.9) (2022-11-05)
+
+
+### Bug Fixes
+
+* add session start_time and re_tracking ([1ff9a21](https://github.com/Greenstand/bulk-pack-transformer-v2/commit/1ff9a2149727aae3f61652963f08223928ed08fe))
+* fix tests ([106a8c8](https://github.com/Greenstand/bulk-pack-transformer-v2/commit/106a8c84e18bc08565c2215feb1f3e801015075b))
+
 ## [1.3.8](https://github.com/Greenstand/bulk-pack-transformer-v2/compare/v1.3.7...v1.3.8) (2022-06-06)
 
 
