@@ -21,8 +21,6 @@ describe('Session Model', () => {
       'track_url',
       'organization',
       'bulk_pack_file_name',
-      'start_time',
-      're_tracking',
     ]);
   });
 
@@ -35,8 +33,6 @@ describe('Session Model', () => {
       check_in_photo_url: 'check_in_photo_url',
       track_url: 'track_url',
       organization: 'organization',
-      start_time: new Date().toISOString(),
-      re_tracking: true,
       key: 'bulk_pack_file_name',
     };
 
