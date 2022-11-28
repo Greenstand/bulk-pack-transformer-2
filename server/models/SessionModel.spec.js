@@ -21,6 +21,7 @@ describe('Session Model', () => {
       'track_url',
       'organization',
       'bulk_pack_file_name',
+      'start_time'
     ]);
   });
 
@@ -34,6 +35,7 @@ describe('Session Model', () => {
       track_url: 'track_url',
       organization: 'organization',
       key: 'bulk_pack_file_name',
+      start_time: new Date().toISOString(),
     };
 
     const axiosStub = sinon.stub(axios, 'post');
