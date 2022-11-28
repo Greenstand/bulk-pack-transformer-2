@@ -1,3 +1,10 @@
+## [1.3.10](https://github.com/Greenstand/bulk-pack-transformer-v2/compare/v1.3.9...v1.3.10) (2022-11-28)
+
+
+### Bug Fixes
+
+* start_time ([77b02b1](https://github.com/Greenstand/bulk-pack-transformer-v2/commit/77b02b144e42d352cccad480d2dbcdb39ad41d4f))
+
 ## [1.3.9](https://github.com/Greenstand/bulk-pack-transformer-v2/compare/v1.3.8...v1.3.9) (2022-11-05)
 
 
