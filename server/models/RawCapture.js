@@ -81,6 +81,7 @@ const createRawCapture = async (rawCaptureObject, v1Details) => {
       originating_wallet_registration_id: sessionId,
       organization: existingWalletRegistration.v1_legacy_organization,
       bulk_pack_file_name: rawCaptureObjectToCreate.bulk_pack_file_name,
+      bulk_pack_version: 'v1',
     };
 
     // create a session
