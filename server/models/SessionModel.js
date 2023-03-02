@@ -11,7 +11,7 @@ const Session = ({
   track_url,
   organization,
   key,
-  start_time
+  start_time,
 }) =>
   Object.freeze({
     id,
@@ -22,7 +22,8 @@ const Session = ({
     track_url,
     organization,
     bulk_pack_file_name: key,
-    start_time
+    start_time,
+    bulk_pack_version: 'v2',
   });
 
 const createSession = async (sessionObject) => {

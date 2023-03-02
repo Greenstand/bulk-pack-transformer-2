@@ -146,6 +146,7 @@ describe('RawCapture Model', () => {
           originating_wallet_registration_id: sessionId,
           organization: 'v1_legacy_organization',
           bulk_pack_file_name: rawCaptureObject.bulk_pack_file_name,
+          bulk_pack_version: 'v1',
         }) &&
           axiosStub.calledWith('treetrackerFieldDataUrl/raw-captures', {
             ...rawCaptureObject,

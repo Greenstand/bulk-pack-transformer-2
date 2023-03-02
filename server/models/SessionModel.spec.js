@@ -21,7 +21,8 @@ describe('Session Model', () => {
       'track_url',
       'organization',
       'bulk_pack_file_name',
-      'start_time'
+      'start_time',
+      'bulk_pack_version',
     ]);
   });
 
@@ -47,6 +48,7 @@ describe('Session Model', () => {
     expect(axiosStub).calledWith('sessionUrl/session', {
       ...sessionObject,
       bulk_pack_file_name: 'bulk_pack_file_name',
+      bulk_pack_version: 'v2',
     });
     axiosStub.restore();
     sessionUrlStub.restore();
