@@ -22,7 +22,7 @@ const Session = ({
     track_url,
     organization,
     bulk_pack_file_name: key,
-    start_time: new Date(start_time).toISOString(), // TEMPORARY FOR MOBILE FIX FOR TEST ENVIRONMENT
+    start_time,
     bulk_pack_version: 'v2',
   });
 
