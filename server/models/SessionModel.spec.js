@@ -11,7 +11,7 @@ const config = require('../../config/config');
 
 describe('Session Model', () => {
   it('Session Models should return defined fields', () => {
-    const session = Session({});
+    const session = Session({ start_time: 1683018302447 });
     expect(session).to.have.keys([
       'id',
       'device_configuration_id',
