@@ -11,7 +11,7 @@ const config = require('../../config/config');
 
 describe('Session Model', () => {
   it('Session Models should return defined fields', () => {
-    const session = Session({});
+    const session = Session({ start_time: 1683018302447 });
     expect(session).to.have.keys([
       'id',
       'device_configuration_id',
@@ -36,7 +36,7 @@ describe('Session Model', () => {
       track_url: 'track_url',
       organization: 'organization',
       key: 'bulk_pack_file_name',
-      start_time: new Date().toISOString(),
+      start_time: 1683018302447,
     };
 
     const axiosStub = sinon.stub(axios, 'post');
@@ -49,6 +49,7 @@ describe('Session Model', () => {
       ...sessionObject,
       bulk_pack_file_name: 'bulk_pack_file_name',
       bulk_pack_version: 'v2',
+      start_time: new Date(1683018302447).toISOString(),
     });
     axiosStub.restore();
     sessionUrlStub.restore();
