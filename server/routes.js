@@ -9,6 +9,7 @@ const {
 } = require('./handlers/walletRegistrationHandler');
 const { sessionPost } = require('./handlers/sessionHandler');
 const { messagePost } = require('./handlers/messageHandler');
+const { trackPost } = require('./handlers/trackHandler');
 const {
   deviceConfigurationPost,
   LegacyDevicePost,
@@ -23,6 +24,7 @@ router.post('/device_configurations', handlerWrapper(deviceConfigurationPost));
 router.post('/sessions', handlerWrapper(sessionPost));
 router.post('/captures', handlerWrapper(rawCapturePost));
 router.post('/messages', handlerWrapper(messagePost));
+router.post('/tracks', handlerWrapper(trackPost));
 
 // Legacy V1
 router.use(
