@@ -1,3 +1,10 @@
+## [1.3.15](https://github.com/Greenstand/bulk-pack-transformer-v2/compare/v1.3.14...v1.3.15) (2023-11-12)
+
+
+### Bug Fixes
+
+* update tracks url implementation ([a68975a](https://github.com/Greenstand/bulk-pack-transformer-v2/commit/a68975a6392d986b93b5a0033b9e4e413f681bc6))
+
 ## [1.3.14](https://github.com/Greenstand/bulk-pack-transformer-v2/compare/v1.3.13...v1.3.14) (2023-06-20)
 
 
