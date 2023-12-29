@@ -73,7 +73,9 @@ const LegacyTreePost = async function (req, res, next) {
         note,
         abs_step_count: abs_step_count?.value ?? 0,
         delta_step_count: delta_step_count?.value ?? 0,
-        rotation_matrix: rotation_matrix?.value ?? [],
+        rotation_matrix: rotation_matrix?.value
+          ? rotation_matrix.value.split(',')
+          : [],
         extra_attributes: attributes,
         captured_at: new Date(timestamp * 1000).toISOString(),
         key,
